@@ -1,4 +1,8 @@
 ---
+logging:
+  level:
+    com.sap.cds.services: DEBUG
+    com.sap.cds.adapter.odata.v4.CdsODataV4Servlet: DEBUG
 spring:
   resources.static-locations: "file:./app"
 cds:
