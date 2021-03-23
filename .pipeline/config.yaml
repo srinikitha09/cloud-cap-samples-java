@@ -1,6 +1,6 @@
 general:
   buildTool: 'maven'
-  #productiveBranch: 'mavenBuildTest'
+  productiveBranch: 'mavenBuildTest'
 Stages:
   Build:
     mavenExecuteStaticCodeChecks: true
