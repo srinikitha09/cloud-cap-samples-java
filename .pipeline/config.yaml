@@ -4,3 +4,5 @@ Stages:
   Build:
     mavenExecuteStaticCodeChecks: true
     npmExecuteLint: true
+  'Additional Unit Tests':
+     npmExecuteScripts: true  
