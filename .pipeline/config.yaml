@@ -1,2 +1,6 @@
 general:
   buildTool: 'maven'
+Stages:
+  Build:
+    mavenExecuteStaticCodeChecks: true
+    npmExecuteLint: true
